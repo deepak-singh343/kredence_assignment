@@ -5,9 +5,171 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: mintcream;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* SignedInLinks */
+#user-name{
+  text-transform: uppercase;
+}
+
+
+/* Home */
+.information {
+  width: 50%;
+  margin-top: 36px;
+  margin-left: 20%;
+  border: 3px solid;
+  padding: 20px;
+  border-color: coral;
+  border-radius: 25px;
+  color: blueviolet;
+}
+
+#choices {
+  width: 200px;
+  border: 2px solid;
+  border-color: chartreuse;
+  color: brown;
+  text-align-last: center;
+  letter-spacing: 3px;
+  margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 15px;
+}
+options {
+  color: brown;
+}
+
+/* SignIn,SignUp */
+form{
+  padding:20px;
+  margin-top:60px;
+}
+
+form button, form h5{
+  margin:20px 0;
+}
+
+/* Tasks */
+.task-details {
+  display: flex;
+  margin-top: 15px;
+  height: 50px;
+  width: 90%;
+  margin-left: 50px;
+  border-bottom: 1px solid;
+  border-bottom-color: darkgrey;
+}
+.id {
+  margin-left: 50px;
+  width: 10%;
+  font-weight: 600;
+}
+.title {
+  width: 40%;
+  font-weight: 600;
+}
+.status {
+  margin-left: 145px;
+  width: 10%;
+  font-weight: 600;
+}
+.delete-btn {
+  width: 20%;
+  margin-left: 79px;
+}
+
+/* TaskList */
+#loading{
+  margin-left: 45%;
+  width: 100px;
+  height: 31px;
+  margin-top: 20px;
+}
+#show-task-btn {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+#add-task-form{
+  display:none;
+  height:250px;
+  width:100%;
+  position: absolute;
+ }
+ .add-task{
+  width:50%;
+  margin-left:25%;
+  position: relative;
+}
+.field {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.label {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.input-field input {
+  width: 80%;
+  height: 30px;
+}
+#add_btn {
+  margin-left: 35%;
+}
+/* Users */
+#user-profile {
+  margin-left: 10%;
+  margin-top: 21px;
+}
+#label {
+  font-size: 17px;
+  font-weight: 500;
+  color: blue;
+}
+#user {
+  text-transform: capitalize;
+  color: red;
+  font-weight: 600;
+  margin-left: 8px;
+  font-size: 17px;
+}
+#user-pwd {
+  color: red;
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 8px;
+}
+#show_hide{
+  display:none;
+}
+#change-pwd-form {
+  padding: 0;
+  margin: 0;
+}
+
+#passwrd {
+  width: 32%;
+  height: 35px;
+}
+#save-pass {
+  position: relative;
+  top: 204px;
+  cursor: pointer;
+}
+#change_btn {
+  margin-top: 149px;
+  cursor: pointer;
+}
+#logout {
+  margin-top: 148px;
+  margin-left: 190px;
+  cursor: pointer;
 }

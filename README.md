@@ -1,2 +1,3 @@
  ## Kredence Assignment
-This project is built using React.In this project there are two tabs FORM and TABLE.In the FORM tab the user can input the various fields in the form and then can see that form data in the table in the TABLE tab
+This project is built using React.In this project the user has to first sign up after signing in,on the homepage the user can select options like NodeJs,Java,React from the selection bar and it will give you information according to the selection and on clicking the Tasks Navbar the user can add the tasks and can also delete that and can also signout.
+
